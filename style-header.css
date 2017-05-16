@@ -1,0 +1,55 @@
+.b-background{
+  height:400px;
+  width: 100%;
+  position: absolute;
+  background-image: url(./img/image-499666622.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  height:400px;
+  width: 100%;
+  position: relative;
+}
+#b-logo {
+  position: absolute;
+  margin-top: 1vh;
+  margin-left: 1vw;
+}
+#b-nav {
+    display: flex;
+    position: absolute;
+    right: 1vw;
+}
+#b-nav li{
+    list-style-type: none;
+    /*transform: rotate(180deg);*/
+}
+#b-nav li a {
+  text-decoration: none;
+  color: white;
+  margin: 1vw;
+}
+#b-accroche {
+  position: relative;
+  text-align: left;
+  color: white;
+  font-size: 25px;
+  top: 100px;
+}
+#b-explication {
+  position: relative;
+  text-align: left;
+  color: white;
+  font-size: 15px;
+  top: 125px;
+}
+#b-bouton {
+  position: absolute;
+  bottom: 10vh;
+  left: 2vw;
+  color: white;
+  background-color: #E57837;
+  font-size: 25px;
+  border: none;
+}

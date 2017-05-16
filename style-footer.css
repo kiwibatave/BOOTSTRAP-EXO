@@ -1,0 +1,78 @@
+/*.b-backfooter {
+  height:400px;
+  width: 100%;
+  position: absolute;
+  background-image: url(./img/image-876206940.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0px;
+  }*/
+  footer {
+
+    height: 400px;
+    background-image: url(./img/image-876206940.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px -353px 0px -353px;
+    padding : 20px 220px 0px 220px;
+  }
+  #b-titre {
+    position: relative;
+    color: white;
+    margin-left: -170vh;
+  }
+  h3 {
+    color: white;
+  }
+  p {
+    color: white;
+  }
+  #b-experiences {
+    position: relative;
+    display: flex;
+    padding: inherit;
+    color: white;
+  }
+  #b-but {
+    display: flex;
+    position: absolute;
+    height: 50px;
+  }
+  #b-bfooter1 {
+    display: flex;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-left: 1vh;
+  }
+  #b-bfooter2 {
+    display: flex;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-left: 3vh;
+  }
+  #b-piedpage  {
+    width: 100%;
+    position: absolute;
+    text-align: left;
+    margin: 0px 15px 0px 0;
+    padding : 20px 220px 0px 220px;
+    background-color: #1F1F1F;
+
+  }
+#b-1{
+  color: white;
+}
+#b-p1 {
+  color: #393B40;
+}
+#b-end {
+  flex-direction: column;
+}

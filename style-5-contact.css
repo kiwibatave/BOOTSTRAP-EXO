@@ -1,0 +1,176 @@
+
+.A-HAUT{
+  display: flex;
+}
+
+h2{
+  padding: 5px 35px 5px 0;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 35px;
+  font-weight: lighter;
+}
+.A-LIGNE{
+  margin: auto;
+  flex: 1;
+}
+
+.A-FORMULAIRE{
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 900px) {
+  .A-FORMULAIRE{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.A-BAS_GAUCHE{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.A-BAS_DROITE{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.A-SECT_H{
+  flex: 1;
+}
+
+.A-SECT_H h3{
+  text-align: left;
+  font-size: 23px;
+  font-weight: lighter;
+  margin: 15px 0 40px 0;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.A-SECT_H p{
+  color: rgba(0, 0, 0, 0.7);
+  text-align: left;
+  font-size: 16px;
+  margin: 5px 20px; 30px 0;
+}
+
+.A-CONT_SECT_G{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 400px) {
+  .A-CONT_SECT_G{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.A-SECT_BG{
+  flex: 1;
+}
+
+.A-SECT_BG p{
+  color: rgba(0, 0, 0, 0.7);
+  text-align: left;
+  font-size: 17px;
+  margin: 5px 0 0 0;
+}
+
+.A-SECT_BG h4{
+  margin: 0 0 35px 0;
+  padding: 0px;
+  font-size: 23px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: lighter;
+}
+
+.A-SECT_BD{
+  flex: 1;
+}
+
+.A-SECT_BD p{
+  color: rgba(0, 0, 0, 0.7);
+  text-align: left;
+  font-size: 19px;
+  margin: 0 0 30px 0;
+}
+
+.A-CONT_LIEN{
+  margin: 60px 0 0 0;
+  padding: 0px;
+  text-align: left;
+}
+
+.A-CONT_LIEN a{
+  color: rgb(244, 126, 54);
+  font-size: 18px;
+  text-decoration:none;
+  padding: 0px;
+}
+
+.A-SECT_B{
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+.A-SECT_B i{
+  font-size: 3em;
+  margin-right: 2%;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.A-CONT_SECT_D{
+  flex;
+  display: flex;
+  flex-direction: column;
+}
+
+.A-CONT_SECT_D h3{
+  flex: 1;
+  text-align: left;
+  font-size: 23px;
+  font-weight: lighter;
+  margin: 15px 0 40px 0;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.A-CONT_SECT_D input{
+  flex: 1;
+  background-color: #f6f5f0;
+  padding: 11px 0 11px 2px;
+  border-radius: 1px;
+  border: none;
+}
+
+.A-CONT_SECT_D p{
+  flex: 1;
+  color: rgba(0, 0, 0, 0.3);
+  text-align: left;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 5px 0 40px 0;
+}
+
+.A-CONT_SECT_D #MES{
+  flex: 1;
+  padding: 8px 0 100px 2px;
+}
+
+.A-CONT_SECT_D #BUT{
+  flex: 1;
+  background-color: rgb(244, 126, 54);
+  color: white;
+  padding: 12px;
+  width: 200px;
+  height: 65px;
+  border-radius: 3px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
